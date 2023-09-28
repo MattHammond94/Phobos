@@ -1,0 +1,36 @@
+- Night mode:
+almost black purp - #220340
+v dark purp - #370F5E
+dark purp - #561595
+light purp - #BE90EA
+
+Star silver - #F0F2F2
+
+button blue - #7BD9F8
+button bluey white - #CBEEF9
+
+- Day mode: 
+normal sky blue - #5297F0
+dark blue sky 1 - #0F2747
+dark blue sky - #075F81
+cyan blue - #4FA7A8
+ice blue - #C0EBFF
+
+planet blue - #0A4086
+planet green - #3C7D64
+
+Purple - #676BC8
+
+button yellow - #FFF18B
+button peach - #FED1C6
+
+-  Sun:
+background - #3A0D2C
+
+yellow - #FDDF47
+orange - #FB7F43
+darker orange - #FF4017
+maroon - #88093E
+
+-  Moon:
+
