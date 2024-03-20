@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Fonts */
+  --font-one: "Major Mono Display", monospace;
+  --font-two: "Asap", sans-serif;
+  --font-three: "Play", sans-serif;
+  --font-four: "Saira Condensed", sans-serif;
+  --font-five: "Chakra Petch", sans-serif;
+  
+
+  /* Colours */
+  --black-purple: #220340;
+  --very-dark-purple: #370F5E;
+  --dark-purple: #561595;
+  --light-purple: #BE90EA;
+  --extra-purple: #676BC8;
+
+  --star-silver: #F0F2F2;
+  --button-blue: #7BD9F8;
+  --bluey-white: #CBEEF9;
+  --sky-blue: #5297F0;
+  --dark-blue-sky: #0F2747;
+  --dark-blue: #075F81;
+  --cyan-blue: #4FA7A8;
+  --ice-blue: #C0EBFF;
+  --planet-blue: #0A4086;
+  --planet-green: #3C7D64;
+
+  --button-yellow: #FFF18B;
+  --button-peach: #FED1C6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--font-one);
+}
+
+h2 { 
+  font-family: var(--font-two);
+}
+
+h3 {
+  font-family: var(--font-three);
+}
