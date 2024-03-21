@@ -5,13 +5,10 @@ function App() {
   const [fact, setFact] = useState("");
 
   const generateFact = async () => {
-    console.log('API called');
-    console.log(import.meta.env.VITE_OPEN_AI_API_KEY);
-
     try {
       const response = await axios.post('https://api.openai.com/v1/chat/completions', {
         model: 'gpt-3.5-turbo',
-        messages: [{ role: 'user', content: 'Generate a randomised fact about the planet Mars. If you have told me this fact before please generate a new different one' }],
+        messages: [{ role: 'user', content: 'Generate five different random facts about the planet Neptune and seperate each fact by a -. Ensure you do not use a - anywhere else other than to seperate the facts.' }],
         temperature: 0.7
       }, {
         headers: {
@@ -27,10 +24,11 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="container">
       <h1>Phobos</h1>
-      <button onClick={ generateFact }>Generate a fact about Mars</button>
+      <button onClick={ generateFact }>Learn more about Neptune</button>
       {fact && <p>{ fact }</p>}
+      <img src="icon2.png" alt="Graphic icon of a blue planet" />
     </div>
   )
 }
