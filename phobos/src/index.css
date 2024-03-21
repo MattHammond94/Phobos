@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
 
 :root {
   line-height: 1.5;
@@ -18,7 +21,9 @@
   --font-three: "Play", sans-serif;
   --font-four: "Saira Condensed", sans-serif;
   --font-five: "Chakra Petch", sans-serif;
-  
+  --font-six: "Sora", sans-serif;
+  --font-seven: "Michroma", sans-serif;
+  --font-eight: "Armata", sans-serif;
 
   /* Colours */
   --black-purple: #220340;
@@ -49,12 +54,10 @@
 
 h1 {
   font-family: var(--font-one);
+  color: var(--dark-blue-sky);
 }
 
-h2 { 
-  font-family: var(--font-two);
-}
-
-h3 {
-  font-family: var(--font-three);
+p { 
+  font-family: var(--font-five);
+  color: var(--dark-blue);
 }
